@@ -7,16 +7,11 @@ const Tab1: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Tab 1</IonTitle>
+          <IonTitle>Chill Radio</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Tab 1</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer name="Tab 1 page" />
+        <iframe src="https://coderadio.freecodecamp.org"  style={{'width':'100%','height':'100%'}} scrolling="yes" ></iframe>
       </IonContent>
     </IonPage>
   );
